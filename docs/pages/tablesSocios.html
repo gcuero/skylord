@@ -376,87 +376,23 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">PROYECTOS</h1>
+                    <h1 class="page-header">Socios</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
             
             <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-comments fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div>Iniciar Nuevo Proyecto</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <!--<span class="pull-left">Detalles</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>-->
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!--<div class="col-lg-3 col-md-6">
-                    <div class="panel panel-green">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-tasks fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">12</div>
-                                    <div>Comprar</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>-->
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-yellow">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-shopping-cart fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <!--<div class="huge">124</div>-->
-                                    <div>Casos de Exito</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <!--<span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>-->
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                
                 <div class="col-lg-3 col-md-6">
                     <div class="panel panel-red">
                         <div class="panel-heading">
                             <div class="row">
                                 <div class="col-xs-3">
-                                    <a href="tablesSocios.html"> <i class="fa fa-users fa-5x"></i></a>
+                                    <i class="fa fa-users fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                   <a href="tablesSocios.html"> <div>Socios</div></a>
+                                    <div>Socios</div>
                                 </div>
                             </div>
                         </div>
@@ -468,13 +404,43 @@
                             </div>
                         </a>
                     </div>
+					<div class="panel-heading">
+                            <div class="col-xs-9">
+                                    <label>B&uacute;squeda</label>
+                                </div>
+                    </div>
+					<div class="panel-body">
+						<div class="form-group">
+							<label>Sector</label>
+							<select class="form-control">
+								<option>Seleccione</option>
+								<option>1 - Financiero</option>
+								<option>2 - Inmobiliario</option>
+								<option>3 - Maquila</option>
+								<option>4 - Comercial</option>
+								<option>5 - Salud</option>
+							</select>
+							<label>Subsector</label>
+							<select class="form-control">
+								<option>Seleccione</option>
+								<option>1.1 - Seguros</option>
+								<option>2.1 - Renta</option>
+								<option>2.1 - Venta</option>
+								<option>3.1 - Maquila de ropa</option>
+								<option>3.1 - Maquila de zapatos</option>
+								<option>4.1 - No perecedero</option>
+								<option>5.1 - Farmacias</option>
+							</select>
+
+						 </div>
+					</div>
                 </div>
             </div>
 				
-				<div class="col-lg-12">
+				<div class="col-lg-8">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <i class="fa fa-cog fa-fw"></i> Mis proyectos
+                            <i class="fa fa-cog fa-fw"></i> Proyectos
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -519,14 +485,112 @@
                             </div>-->
                             <!-- /.list-group -->
                             <!--<a href="#" class="btn btn-default btn-block">View All Alerts</a>-->
+							<div class="text-right">
+								<button type="submit" class="btn btn-default">Solicitar</button>
+							</div>
                         </div>
+						
                         <!-- /.panel-body -->
                     </div>
+					
+					
+					
                 <!-- /.col-lg-6 -->
             </div>
+			<div class="col-lg-4">
+			<div class="chat-panel panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-comments fa-fw"></i> Chat
+                            <div class="btn-group pull-right">
+                                <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                                <ul class="dropdown-menu slidedown">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-refresh fa-fw"></i> Refrescar
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-check-circle fa-fw"></i> Disponible
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-times fa-fw"></i> Ocupado
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-clock-o fa-fw"></i> Ausente
+                                        </a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-sign-out fa-fw"></i> Salir
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <ul class="chat">
+                                <li class="left clearfix">
+                                    <span class="chat-img pull-left">
+                                        <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" />
+                                    </span>
+                                    <div class="chat-body clearfix">
+                                        <div class="header">
+                                            <strong class="primary-font">Asesor</strong>
+                                            <small class="pull-right text-muted">
+                                                <i class="fa fa-clock-o fa-fw"></i> Hace 12 minutos
+                                            </small>
+                                        </div>
+                                        <p>
+                                            Buen d&iacute;a.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="right clearfix">
+                                    <span class="chat-img pull-right">
+                                        <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar" class="img-circle" />
+                                    </span>
+                                    <div class="chat-body clearfix">
+                                        <div class="header">
+                                            <small class=" text-muted">
+                                                <i class="fa fa-clock-o fa-fw"></i> Hace 13 minutos</small>
+                                            <strong class="pull-right primary-font">Cliente</strong>
+                                        </div>
+                                        <p>
+                                            Requiero la Documentaci&oacute;n Faltante.
+                                        </p>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <!-- /.panel-body -->
+                        <div class="panel-footer">
+                            <div class="input-group">
+                                <input id="btn-input" type="text" class="form-control input-sm" placeholder="Escribe tu mensaje aqui..." />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-warning btn-sm" id="btn-chat">
+                                        Enviar
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- /.panel-footer -->
+                    </div>
+			
             <!-- /.row -->
         </div>
+		</div>
         <!-- /#page-wrapper -->
+		
 
     </div>
     <!-- /#wrapper -->
